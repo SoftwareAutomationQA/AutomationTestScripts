@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuiteExam]">
+  <test thread-count="5" name="AutomationTestingXero(failed)">
+    <parameter name="SignUpUrl" value="https://www.xero.com/us/"/>
+    <parameter name="url" value="https://login.xero.com/"/>
+    <classes>
+      <class name="autoModularFramework.TestScriptsMain">
+        <methods>
+          <include name="endReport"/>
+          <include name="addOrganizationA" invocation-numbers="0"/>
+          <include name="signUpC" invocation-numbers="0"/>
+          <include name="endDriver"/>
+          <include name="ExtentReport"/>
+          <include name="launchBrowser"/>
+          <include name="signUpE" invocation-numbers="0"/>
+          <include name="addOrganizationPaidB" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- autoModularFramework.TestScriptsMain -->
+    </classes>
+  </test> <!-- AutomationTestingXero(failed) -->
+</suite> <!-- Failed suite [TestSuiteExam] -->

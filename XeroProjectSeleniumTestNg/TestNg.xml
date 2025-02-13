@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="TestSuiteExam" parallel="false">
+<test name ="AutomationTestingXeroApp">
+<parameter name="url" value="https://login.xero.com/"/>
+<parameter name="SignUpUrl" value="https://www.xero.com/us/"/>
+<classes>
+<class name="autoModularFramework.TestScriptsMain"></class>
+</classes>
+</test>
+</suite>
